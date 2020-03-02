@@ -13,13 +13,12 @@ if (cardsInPlay[0] === cardsInPlay[1])
 
 function flipCard(cardId) {
  console.log("User Flipped " + cards[cardId]);
-}
-{
-	checkForMatch()
+cardsInPlay.push(cards[cardId]);
+checkForMatch();
 }
 
 
-// cardsInPlay.push(cards[cardId]);
+// 
 
 flipCard()
 
